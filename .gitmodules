@@ -1,0 +1,9 @@
+[submodule "workshop"]
+	path = workshop
+	url = git@gitee.com:spharx/workshop.git
+[submodule "deepness"]
+	path = deepness
+	url = git@gitee.com:spharx/deepness.git
+[submodule "benchmark"]
+	path = benchmark
+	url = git@gitee.com:spharx/benchmark.git
