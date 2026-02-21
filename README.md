@@ -1,4 +1,4 @@
-# SpharxHub - 物理世界数据基础设施平台
+# SpharxWorks - 物理世界数据基础设施平台
 
 <div align="center">
 
