@@ -1,4 +1,4 @@
-# SpharxHub - Physical World Data Infrastructure Platform
+# SpharxWorks - Physical World Data Infrastructure Platform
 
 <div align="center">
 
@@ -9,11 +9,14 @@
 
 **Building Physical World Data Infrastructure for the AI Era**
 
+*"From data intelligence emerges"*
+*"始于数据，终于智能"*
+
 </div>
 
 ## 📋 Project Overview
 
-SpharxHub is an end-to-end data infrastructure platform for embodied intelligence and physical world understanding. The platform consists of three core subsystems:
+SpharxWorks is an end-to-end data infrastructure platform for embodied intelligence and physical world understanding. The platform consists of three core subsystems:
 
 - **🧠 Workshop**: Physical World Data Factory - Automated pipeline from sensors to standardized datasets
 - **🔬 Deepness**: Deep Processing Production Line - Physics property injection, interaction trajectory recording, and advanced processing
@@ -24,7 +27,7 @@ Our mission is to become the "TSMC of data" for the AI era, providing high-quali
 ## 🏗️ Overall Architecture
 
 ```
-SpharxHub/
+SpharxWorks/
 ├── workshop/           # L0-L2 Data Production Pipeline
 │   ├── pipelines/      # 6 processing modules (ingest→quality→enhance→calibrate→pack→deliver)
 │   ├── hardware/       # Hardware control (RealSense sync, calibration tools)
@@ -189,8 +192,11 @@ Thanks to the following open-source projects for their contributions:
 
 <div align="center">
 
-**SpharxHub** —— Starting with Data, Ending with Intelligence
+<h1>SpharxWorks</h1>
 
-*Building Physical World Data Infrastructure for the AI Era*
+<h3>From data intelligence emerges</h3>
+<h3>始于数据，终于智能</h3>
+
+<p><em>Building Physical World Data Infrastructure for the AI Era</em></p>
 
 </div>
