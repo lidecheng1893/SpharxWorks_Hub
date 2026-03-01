@@ -1,4 +1,4 @@
-# SpharxWorks - 物理世界数据基础设施
+# SpharxWorks - 空间物理数据资产生产线
 
 <div align="center">
 
@@ -7,17 +7,21 @@
 [![Docker](https://img.shields.io/badge/docker-ready-green.svg)](https://www.docker.com/)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey.svg)](#)
 
-**构建 AI 时代的物理世界数据基础设施**
+**创建AI时代的物理世界数据基础设施**
+
 
 *"From data intelligence emerges"*
----
+
 *"始于数据，终于智能"*
+
 
 </div>
 
 ## 🎯 项目愿景
 
-SpharxWorks 致力于成为人工智能时代的"数据台积电"，通过工业化、标准化的生产理念，构建从物理世界到数字智能的完整数据基础设施。我们相信，真正的智能源于对物理世界的深度理解和精准建模。
+SPHARX 致力于成为人工智能时代的"数据台积电"。
+通过工业化、标准化的生产理念，构建从物理世界到数字智能的完整数据基础设施。
+我们相信，真正的智能源于对物理世界的深度理解和精准建模。
 
 ## 🏭 核心价值主张
 
@@ -35,28 +39,26 @@ SpharxWorks 致力于成为人工智能时代的"数据台积电"，通过工业
 
 ## 🚀 三大核心生产线
 
-### 1. Workshop - 物理世界数据工厂 ✅ 生产就绪 (v3.1)
+### 1. Workshop - 物理世界数据工厂 ✅ 生产就绪 (v1.0.0.6)
 **状态**：100% 完成，已投入生产环境使用
 
 工业级的数据采集和预处理平台，实现从原始传感器数据到标准化数据集的自动化转换。
 
-### 2. Deepness - 深度加工生产线 ⚡ 开发中 (v0.1)  
+### 2. Deepness - 深度加工生产线 ⚡ 开发中 (v1.0.3.6)  
 **状态**：65% 完成，核心功能开发中
 
 基于前沿AI算法的深度处理平台，为物理世界数据注入语义和物理属性。
 
-### 3. Benchmark - 世界模型评测中心 📊 规划中 (v0.0)
+### 3. Benchmark - 世界模型评测中心 📊 规划中 (v1.0.0.1)
 **状态**：25% 完成，架构设计阶段
 
-标准化的世界模型评估体系，推动物理AI领域的健康发展。
+标准化的世界模型评估体系，推动物理AI领域的发展。
 
 ## 🌟 技术特色
 
 ### 🏗️ 架构优势
 - **分层解耦**：基础层→共享层→模块层→应用层的清晰架构
 - **容器化部署**：基于Docker的微服务架构，支持弹性扩展
-- **离线优先**：本地化依赖管理，构建过程零网络依赖
-- **版本锁定**：通过Git commit hash确保构建可重现
 
 ### 🔧 工程实践
 - **配置驱动**：统一的YAML配置管理体系
@@ -67,7 +69,7 @@ SpharxWorks 致力于成为人工智能时代的"数据台积电"，通过工业
 ## 📈 发展路线图
 
 ### 短期目标 (2026 Q2-Q3)
-- ✅ 完善Workshop v3.1生产就绪版本
+- ✅ 完善Workshop生产就绪版本
 - ⏳ 推进Deepness核心模块功能开发
 - 🔲 启动Benchmark架构设计和原型验证
 
@@ -81,7 +83,7 @@ SpharxWorks 致力于成为人工智能时代的"数据台积电"，通过工业
 - 🤝 构建全球化的开源社区生态
 - 🏆 引领下一代物理世界理解技术发展
 
-## 🤝 生态合作
+## 🤝 合作
 
 我们诚邀各界合作伙伴共同建设物理世界数据基础设施：
 
@@ -103,14 +105,9 @@ SpharxWorks 致力于成为人工智能时代的"数据台积电"，通过工业
 - [🔬 Deepness技术文档](deepness/README.md) - 深度加工技术细节  
 - [📊 Benchmark设计文档](benchmark/README.md) - 评测系统规划
 
-### 开发资源
-- [📈 项目进度报告](workshop/docs/PROGRESS.md) - 开发里程碑跟踪
-- [📋 质量检查报告](workshop/docs/COMPREHENSIVE_CODE_AND_DOCUMENTATION_CHECK_REPORT.md) - 全面代码质量评估
-- [⚙️ 编码标准](workshop/docs/CODING_STANDARDS.md) - 开发规范和最佳实践
-
 ## 📄 许可证
 
-本项目采用 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
+本项目采用GPL许可证，详情请查看 [LICENSE](LICENSE) 文件。
 
 ## 🙏 致谢
 
@@ -127,7 +124,6 @@ SpharxWorks 致力于成为人工智能时代的"数据台积电"，通过工业
 
 <p><em>构建 AI 时代的物理世界数据基础设施</em></p>
 
-[项目官网](https://spharx.com) · [技术博客](https://blog.spharx.com) · [社区讨论](https://gitee.com/spharx/spharxworks/issues)
 
 ### 📞 联系我们
 
