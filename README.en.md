@@ -10,183 +10,111 @@
 **Building Physical World Data Infrastructure for the AI Era**
 
 *"From data intelligence emerges"*
+---
 *"始于数据，终于智能"*
 
 </div>
 
-## 📋 Project Overview
+## 🎯 Project Vision
 
-SpharxWorks is an end-to-end data infrastructure platform for embodied intelligence and physical world understanding. The platform consists of three core subsystems:
+SpharxWorks aims to become the "TSMC of data" for the AI era, building complete data infrastructure from the physical world to digital intelligence through industrial and standardized production concepts. We believe that true intelligence stems from deep understanding and precise modeling of the physical world.
 
-- **🧠 Workshop**: Physical World Data Factory - Automated pipeline from sensors to standardized datasets
-- **🔬 Deepness**: Deep Processing Production Line - Physics property injection, interaction trajectory recording, and advanced processing
-- **📊 Benchmark**: World Model Evaluation Center - Datasets, metrics, and evaluation benchmarks
+## 🏭 Core Value Proposition
 
-Our mission is to become the "TSMC of data" for the AI era, providing high-quality, scalable physical world data solutions for embodied intelligence, robot vision, and physical simulation domains.
+### Industrial Production System
+- **Standardized Processes**: End-to-end standardized pipeline from data collection to model training
+- **Modular Architecture**: Pluggable processing modules supporting flexible expansion and customization
+- **Quality Assurance**: Automated quality inspection and data integrity verification throughout the entire process
+- **Economies of Scale**: Platform-based operations achieving diminishing marginal costs
 
-## 🏗️ Overall Architecture
+### Platform Ecosystem
+- **Open Standards**: Establish industry standards and specifications for physical world data
+- **Ecosystem Collaboration**: Connect hardware manufacturers, algorithm developers, and application enterprises
+- **Value Co-creation**: Build multi-party win-win data value networks
+- **Continuous Evolution**: Intelligent upgrade mechanisms based on feedback loops
 
-```
-SpharxWorks/
-├── workshop/           # L0-L2 Data Production Pipeline
-│   ├── pipelines/      # 6 processing modules (ingest→quality→enhance→calibrate→pack→deliver)
-│   ├── hardware/       # Hardware control (RealSense sync, calibration tools)
-│   ├── dashboard/      # Web monitoring panel
-│   └── schemas/        # Data model definitions
-│
-├── deepness/           # L2-L4 Deep Processing
-│   ├── pipelines/      # Physics injection, interaction recording, evaluation export
-│   ├── common/         # Shared components and models
-│   └── base/           # Base Docker images
-│
-└── benchmark/          # Evaluation Benchmark Suite
-    ├── datasets/       # Standard evaluation datasets
-    ├── metrics/        # Evaluation metrics and tools
-    └── results/        # Benchmark test results
-```
+## 🚀 Three Core Production Lines
 
-## 🚀 Core Subsystems
+### 1. Workshop - Physical World Data Factory ✅ Production Ready (v3.1)
+**Status**: 100% Complete, Deployed in Production Environment
 
-### 1. Workshop - Physical World Data Factory ✅
+Industrial-grade data collection and preprocessing platform, achieving automated conversion from raw sensor data to standardized datasets.
 
-**Status**: Production Ready (v3.1)
+### 2. Deepness - Deep Processing Production Line ⚡ In Development (v0.1)  
+**Status**: 65% Complete, Core Functionality Development
 
-Automated data collection and processing pipeline based on Intel RealSense cameras, completed features include:
+Advanced processing platform based on cutting-edge AI algorithms, injecting semantics and physical properties into physical world data.
 
-- ✅ Hardware synchronization solution (3×D455 camera synchronized capture)
-- ✅ Real data parsing (RGB video, depth maps, IMU data extraction)
-- ✅ Automated quality inspection (blur/exposure/frame drop detection)
-- ✅ Semantic annotation (YOLOv8 object detection)
-- ✅ Camera calibration (checkerboard intrinsic calibration)
-- ✅ Dataset packaging (SHA256 hash verification)
-- ✅ Web monitoring panel (Streamlit)
+### 3. Benchmark - World Model Evaluation Center 📊 In Planning (v0.0)
+**Status**: 25% Complete, Architecture Design Phase
 
-**Tech Stack**: Python 3.10+, Docker, OpenCV, PyTorch, YOLOv8, Intel RealSense SDK
+Standardized world model evaluation system, promoting healthy development in the physical AI field.
 
-### 2. Deepness - Deep Processing Production Line ⚡
+## 🌟 Technical Features
 
-**Status**: In Development
+### 🏗️ Architectural Advantages
+- **Layered Decoupling**: Clear architecture from base layer → shared layer → module layer → application layer
+- **Containerized Deployment**: Microservice architecture based on Docker, supporting elastic scaling
+- **Offline-First**: Localized dependency management, zero network dependency during build process
+- **Version Locking**: Ensuring reproducible builds through Git commit hashes
 
-Advanced physical world processing platform based on Fast-SAM3D:
+### 🔧 Engineering Practices
+- **Configuration-Driven**: Unified YAML configuration management system
+- **Observability**: Comprehensive logging system and status monitoring
+- **Security Compliance**: Container security and data protection mechanisms
+- **Continuous Integration**: Automated testing and deployment pipelines
 
-- 🔨 Physics property injection module (Fast-SAM3D, PyTorch3D, Open3D)
-- 📝 Interaction trajectory recording module (reserved)
-- 📤 Evaluation data export module (Genie Sim 3.0, NVIDIA Cosmos format)
+## 📈 Development Roadmap
 
-**Tech Stack**: Fast-SAM3D, PyTorch 2.5.1, CUDA 12.1, PyTorch3D 0.7.6
+### Short-term Goals (2026 Q2-Q3)
+- ✅ Refine Workshop v3.1 production-ready version
+- ⏳ Advance Deepness core module functionality development
+- 🔲 Initiate Benchmark architecture design and prototype validation
 
-### 3. Benchmark - Evaluation Center 📊
+### Medium-term Planning (2026 Q4-2027)
+- 🚀 Official release of Deepness v1.0
+- 🔄 Build complete data processing ecosystem chain
+- 📊 Establish industry standards and evaluation systems
 
-**Status**: In Planning
+### Long-term Vision (2027+)
+- 🌐 Become infrastructure provider in the physical AI field
+- 🤝 Build global open-source community ecosystem
+- 🏆 Lead next-generation physical world understanding technology development
 
-Standardized evaluation platform for world models:
+## 🤝 Ecosystem Partnership
 
-- 📁 Evaluation dataset management
-- 📏 Performance metric definition
-- 📊 Result analysis tools
-- 🔄 Benchmark testing scripts
+We invite partners from all walks of life to jointly build physical world data infrastructure:
 
-## 🛠️ Technical Features
+### Technical Partners
+- Hardware Manufacturers: Sensor, camera, and computing device providers
+- Algorithm Teams: Experts in 3D reconstruction, SLAM, physical simulation and other fields
+- Application Enterprises: Robotics, autonomous driving, AR/VR and other landing scenarios
 
-### 🏭 Industrial Production
-- **Modular Design**: Each processing stage is containerized independently, supporting plug-and-play expansion
-- **Configuration Separation**: All parameters centrally managed, supporting environment variable override
-- **Exception Handling**: Comprehensive logging system and error recovery mechanisms
-- **Quality Assurance**: Automated quality inspection and data integrity verification
+### Community Contributions
+- **Code Contributions**: Core functionality development and optimization
+- **Documentation Enhancement**: User guides and technical documentation
+- **Testing Validation**: Functional testing and performance evaluation
+- **Ecosystem Building**: Community operations and knowledge sharing
 
-### 🔧 Developer Friendly
-- **Dockerized**: One-click build and deployment of all services
-- **Multi-platform Support**: Linux/Windows dual-platform compatibility
-- **Complete Documentation**: Detailed development documentation and usage guides
-- **Test Coverage**: Unit testing and integration testing framework
+## 📚 Learning Resources
 
-### 🚀 High-Performance Computing
-- **GPU Acceleration**: CUDA-optimized deep learning inference
-- **Batch Processing Optimization**: Supports large-scale data parallel processing
-- **Resource Management**: Intelligent memory and GPU memory management
+### Core Documentation
+- [📘 Complete Workshop Documentation](workshop/README.md) - Detailed data factory specifications
+- [🔬 Deepness Technical Documentation](deepness/README.md) - Advanced processing technical details  
+- [📊 Benchmark Design Documentation](benchmark/README.md) - Evaluation system planning
 
-## 📦 Quick Start
-
-### System Requirements
-
-- **Operating System**: Ubuntu 22.04 / Windows 10+
-- **Docker**: 20.10+
-- **GPU**: NVIDIA GPU (optional, for deep learning modules)
-- **Memory**: 16GB+ RAM
-- **Storage**: 100GB+ available space
-
-### Installation and Deployment
-
-```bash
-# Clone repository
-git clone https://gitee.com/spharx/spharxhub.git
-cd spharxhub
-
-# Build Workshop system
-cd workshop
-docker-compose build
-
-# Start data processing pipeline
-./scripts/pipeline/run_full.sh /path/to/your/recording.bag
-```
-
-### Usage Example
-
-```python
-# Workshop data processing example
-from workshop.pipelines.ingest.parser import RealSenseParser
-from workshop.pipelines.quality.detector import QualityDetector
-
-# Parse RealSense data
-parser = RealSenseParser()
-data = parser.parse('/path/to/recording.bag')
-
-# Quality detection
-quality_checker = QualityDetector()
-report = quality_checker.analyze(data)
-```
-
-## 📊 Project Status
-
-| Subsystem | Status | Version | Completion |
-|-----------|--------|---------|------------|
-| Workshop | ✅ Production Ready | v3.1 | 100% |
-| Deepness | ⚡ In Development | v0.1 | 60% |
-| Benchmark | 📊 In Planning | v0.0 | 20% |
-
-**Overall Progress**: 60%
-
-## 🤝 Contribution Guidelines
-
-We welcome contributions in various forms:
-
-1. **Report Issues**: Submit bugs or feature requests
-2. **Code Contributions**: Submit Pull Requests
-3. **Documentation Improvement**: Enhance usage documentation
-4. **Testing Enhancement**: Increase test coverage
-
-Please refer to each subsystem's CONTRIBUTING.md file for specific contribution processes.
-
-## 📚 Documentation Resources
-
-- [📘 Complete Workshop Documentation](workshop/README.md)
-- [🔬 Deepness Technical Documentation](deepness/README.md)
-- [📊 Benchmark Design Documentation](benchmark/README.md)
-- [📈 Project Progress Report](workshop/PROGRESS.md)
+### Development Resources
+- [📈 Project Progress Report](workshop/docs/PROGRESS.md) - Development milestone tracking
+- [📋 Quality Inspection Report](workshop/docs/COMPREHENSIVE_CODE_AND_DOCUMENTATION_CHECK_REPORT.md) - Comprehensive code quality assessment
+- [⚙️ Coding Standards](workshop/docs/CODING_STANDARDS.md) - Development specifications and best practices
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🌟 Acknowledgements
+## 🙏 Acknowledgements
 
-Thanks to the following open-source projects for their contributions:
-
-- [Intel RealSense SDK](https://github.com/IntelRealSense/librealsense)
-- [YOLOv8](https://github.com/ultralytics/ultralytics)
-- [Fast-SAM3D](https://github.com/wlfeng0509/Fast-SAM3D)
-- [Open3D](http://www.open3d.org/)
-- [PyTorch3D](https://pytorch3d.org/)
+Thank you to all developers who contribute to the open-source community. It is your efforts that make projects like this possible.
 
 ---
 
@@ -198,5 +126,15 @@ Thanks to the following open-source projects for their contributions:
 <h3>始于数据，终于智能</h3>
 
 <p><em>Building Physical World Data Infrastructure for the AI Era</em></p>
+
+[Project Website](https://spharx.com) · [Technical Blog](https://blog.spharx.com) · [Community Discussion](https://gitee.com/spharx/spharxhub/issues)
+
+### 📞 Contact Us
+
+- 📧 Email: lidecheng@spharx.com
+
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=spharx/spharxhub&type=Date)](https://star-history.com/#spharx/spharxhub&Date)
 
 </div>
