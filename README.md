@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/docker-ready-green.svg)](https://www.docker.com/)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey.svg)](#)
@@ -20,8 +20,8 @@
 ## 🎯 项目愿景
 
 - SPHARX要成为人工智能时代的"OEM-Data（数据台积电）"。
-- 通过可拓展、可验证、工业化、标准化的生产，构建从物理世界到人工智能的数据基础设施。
-- 我们坚信，真正的智能源于对物理世界的深度理解。智能是从数据中涌现的。
+- 通过可拓展、可验证、工业化、标准化的生产，创造从物理世界到人工智能的数据基础设施。
+- 我们坚信，真正的智能源于对物理世界的深度理解，智能是涌现的。
 
 ## 🏭 核心价值主张
 
@@ -107,7 +107,17 @@
 
 ## 📄 许可证
 
-本项目采用GPL许可证，详情请查看 [LICENSE](LICENSE) 文件。
+SpharxWorks 采用 **GPL-3.0 开源协议 + 商业闭源授权** 双授权模式，您可根据自身使用场景选择对应授权。
+
+### 开源授权（GPL-3.0）
+个人学习、学术研究、非商业原型验证、开源社区贡献等非商业场景，可免费使用本项目，需严格遵守GPL-3.0协议的开源义务，完整协议详见 [LICENSE-GPL-3.0](LICENSE-GPL-3.0)。
+
+### 商业闭源授权
+任何将本项目用于闭源商业产品、商业服务、盈利性项目的行为，均需提前向SPHARX极光感知科技申请商业授权，获得闭源使用豁免、官方技术支持、定制化服务等权益。
+
+商业授权详情详见 [LICENSE-COMMERCIAL](LICENSE-COMMERCIAL)，授权申请请联系：
+- 官方邮箱：lidecheng@spharx.cn、wangliren@spharx.cn
+- 官方网站：https://spharx.cn
 
 ## 🙏 致谢
 
@@ -124,22 +134,16 @@
 
 <p><em>构建 AI 时代的物理世界数据基础设施</em></p>
 
-
 ### 📞 联系我们
 
 - 📧 邮箱: lidecheng@spharx.com
 
-## 许可证
-SpharxWorks 采用 **GPL-3.0 开源协议 + 商业闭源授权** 双授权模式，您可根据自身使用场景选择对应授权。
-
-### 开源授权（GPL-3.0）
-个人学习、学术研究、非商业原型验证、开源社区贡献等非商业场景，可免费使用本项目，需严格遵守GPL-3.0协议的开源义务，完整协议详见 [LICENSE-GPL-3.0]。
-
-### 商业闭源授权
-任何将本项目用于闭源商业产品、商业服务、盈利性项目的行为，均需提前向SPHARX极光感知科技申请商业授权，获得闭源使用豁免、官方技术支持、定制化服务等权益。
-
-商业授权详情详见 [LICENSE-COMMERCIAL]，授权申请请联系：
-- 官方邮箱：lidecheng@spharx.cn、wangliren@spharx.cn
-- 官方网站：https://spharx.cn
+<p>
+  <a href="https://github.com/spharx/spharxworks">GitHub</a> ·
+  <a href="https://spharx.cn">官方网站</a> ·
+  <a href="mailto:lidecheng@spharx.com">技术支持</a>
+</p>
 
 © 2026 SPHARX极光感知科技，保留所有权利。
+
+</div>
